@@ -1,3 +1,4 @@
+[![Travis](https://travis-ci.org/datarator/datarator-ui.png?branch=master)](https://travis-ci.org/datarator/datarator-ui)
 # datarator-ui
 =======
 # Introduction
