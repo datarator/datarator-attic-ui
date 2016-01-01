@@ -1,0 +1,341 @@
+<p></p>
+
+<form action="#">
+  <div class="row">
+    <div class="col">
+      <ul class="tabs">
+        <li class="tab"><a class="active" href="#test1">UI</a></li>
+        <li class="tab"><a href="#test2">JSON</a></li>
+      </ul>
+    </div>
+
+    <div id="test1" class="col s12">
+      <h5>Columns</h5>
+      <table class="centered">
+        <thead>
+        <tr>
+          <th data-field="order"></th>
+          <th data-field="name">Name</th>
+          <th data-field="type">Type</th>
+          <th data-field="options">Options</th>
+          <th data-field="price">Empty [%]</th>
+          <th data-field="action">Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>
+            <i class="material-icons">import_export</i>
+          </td>
+          <td>
+            <div class="input-field">
+              <input id="name" type="text" class="validate">
+              <label for="name">Name</label>
+            </div>
+          </td>
+          <td><a class="waves-effect waves-light btn">Last name</a></td>
+          <td>
+            <div class="input-field">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Value</label>
+            </div>
+          </td>
+          <td>
+            <div class="input-field">
+              <input id="empty_percent" type="number" min="0" max="100" value="0" class="validate">
+              <label for="empty_percent">Empty [%]</label>
+            </div>
+            <!--
+                        <p class="range-field">
+                          <input type="range" id="empty_percent" min="0" max="100" value="0"/>
+                        </p>
+            -->
+          </td>
+          <td>
+            <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+            <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <i class="material-icons">import_export</i>
+          </td>
+          <td>
+            <div class="input-field">
+              <input id="name2" type="text" class="validate">
+              <label for="name2">Name</label>
+            </div>
+          </td>
+          <td><a class="waves-effect waves-light btn">Copy</a></td>
+          <td>
+            <div class="input-field">
+              <select>
+                <option value="" disabled selected>Choose column</option>
+                <option value="1">Name 1</option>
+                <option value="2">Name 2</option>
+                <option value="3">Name 3</option>
+              </select>
+              <label>Copy from</label>
+            </div>
+            <!--<div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Column</label>
+            </div>-->
+          </td>
+          <td>
+            <div class="input-field">
+              <input id="empty_percent" type="number" min="0" max="100" value="0" class="validate">
+              <label for="empty_percent">Empty [%]</label>
+            </div>
+            <!--<p class="range-field">
+              <input type="range" id="empty_percent" min="0" max="100" value="0"/>
+            </p>-->
+          </td>
+          <td>
+            <div><!--
+      <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+      <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">remove</i></a>
+      <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+        <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">keyboard_arrow_up</i></a>
+        <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">keyboard_arrow_down</i></a>-->
+
+
+              <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+              <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <i class="material-icons">import_export</i>
+          </td>
+          <td>
+            <div class="input-field">
+              <input id="name2" type="text" class="validate">
+              <label for="name2">Name</label>
+            </div>
+          </td>
+          <td><a class="waves-effect waves-light btn">First name</a></td>
+          <td>
+            <div class="input-field">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Value</label>
+            </div>
+          </td>
+          <td>
+            <div class="input-field">
+              <input id="empty_percent" type="number" min="0" max="100" value="0" class="validate">
+              <label for="empty_percent">Empty [%]</label>
+            </div>
+            <!--<p class="range-field">
+              <input type="range" id="empty_percent" min="0" max="100" value="0"/>
+            </p>-->
+          </td>
+          <td>
+            <div>
+              <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+              <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="6" class="subtable">
+            <table>
+
+              <thead>
+              <tr>
+              </tr>
+              </thead>
+
+              <tbody>
+              <tr>
+                <td>
+                  <i class="material-icons">import_export</i>
+                </td>
+                <td>
+                  <div class="input-field">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Name</label>
+                  </div>
+                </td>
+                <td><a class="waves-effect waves-light btn">Last name</a></td>
+                <td>
+                  <div class="input-field">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Value</label>
+                  </div>
+                </td>
+                <td>
+                  <div class="input-field">
+                    <input id="empty_percent" type="number" min="0" max="100" value="0" class="validate">
+                    <label for="empty_percent">Empty [%]</label>
+                  </div>
+                  <!--<p class="range-field">
+                    <input type="range" id="empty_percent" min="0" max="100" value="0"/>
+                  </p>-->
+                </td>
+                <td>
+                  <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+                  <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <i class="material-icons">import_export</i>
+                </td>
+                <td>
+                  <div class="input-field">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Name</label>
+                  </div>
+                </td>
+                <td><a class="waves-effect waves-light btn">Last name</a></td>
+                <td>
+                  <div class="input-field">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Value</label>
+                  </div>
+                </td>
+                <td>
+                  <div class="input-field">
+                    <input id="empty_percent" type="number" min="0" max="100" value="0" class="validate">
+                    <label for="empty_percent">Empty [%]</label>
+                  </div>
+
+                  <!--<p class="range-field">
+                    <input type="range" id="empty_percent" min="0" max="100" value="0"/>
+                  </p>-->
+                </td>
+                <td>
+                  <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+                  <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+      <h5>Output</h5>
+      <!--
+
+            <div class="switch">
+              <label>
+                Changeset
+                <input type="checkbox">
+                <span class="lever"></span>
+                No changeset
+              </label>
+            </div>-->
+
+
+      <div class="row">
+        <div class="input-field col">
+          <input id="document_name" type="text" class="validate">
+          <label for="document_name">Document name</label>
+        </div>
+        <div class="input-field col">
+          <!--<p class="range-field">
+            <input type="range" id="count" min="0" max="1000000" value="100"/>
+          </p>-->
+          <input id="count" type="number" min="1" max="1000000" value="10" class="validate">
+          <label for="count">Row count</label>
+        </div>
+        <div class="input-field col">
+          <select>
+            <!--<option value="" selected>Choose your option</option>-->
+            <option value="1">English</option>
+            <option value="2">German</option>
+          </select>
+          <label>Language</label>
+        </div>
+      </div>
+
+
+      <h6>Format</h6>
+
+      <div class="row">
+        <div class="col">
+          <p>
+            <input name="output_templates" type="radio" id="csv" checked/>
+            <label for="csv">csv</label>
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            <input type="checkbox" id="header" checked/>
+            <label for="header">Header</label>
+          </p>
+          <div class="input-field col">
+            <input id="empty_value" type="text" class="validate">
+            <label for="empty_value">Empty Value</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p>
+            <input name="output_templates" type="radio" id="sql"/>
+            <label for="sql">sql</label>
+          </p>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p>
+            <input name="output_templates" type="radio" id="liquibase"/>
+            <label for="liquibase">Liquibase</label>
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            <input type="checkbox" id="changeset" checked disabled/>
+            <label for="changeset">Changeset</label>
+          </p>
+        </div>
+        <div class="input-field col">
+          <select disabled>
+            <option value="1">xml</option>
+            <option value="2">yaml</option>
+            <option value="2">json</option>
+          </select>
+          <label>Format</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- json -->
+    <div id="test2" class="col s12">
+
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea">{"template":"csv","document":"foo_document","count":"100000","columns":[{"name":"name_gen","type":"name.name"}, {"name":"name_1st","type":"name.title"}, {"name":"name_lst","type":"list.seq","columns":[{"name":"name_11","type":"const", "options":{"value":"name.suffix"}},{"name":"name_12","type":"const", "options":{"value":"value2"}}]}],"options":{"header":"true","empty_value":"NULL"}}</textarea>
+          <label for="textarea1">Data to generate</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <td><a class="waves-effect waves-light btn">Format</a></td>
+        </div>
+        <div class="col">
+          <td><a class="waves-effect waves-light btn">Remove whitespaces</a></td>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <button class="btn waves-effect waves-light" type="submit" name="action">Generate
+    <i class="material-icons right">send</i>
+  </button>
+
+</form>
