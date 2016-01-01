@@ -47,7 +47,16 @@ export const NPM_DEPENDENCIES = [
   { src: 'angular2/bundles/router.js', inject: 'libs', dest: LIB_DEST }, // use router.min.js with alpha47
   { src: 'angular2/bundles/http.min.js', inject: 'libs', dest: LIB_DEST },
 
-  { src: 'bootstrap/dist/css/bootstrap.min.css', inject: true, dest: CSS_DEST }
+  { src: 'jquery/dist/jquery.min.js', inject: 'libs', dest: LIB_DEST },
+  { src: 'materialize-css/dist/js/materialize.js', inject: 'libs', dest: LIB_DEST },
+  { src: 'materialize-css/dist/css/materialize.css', inject: true, dest: CSS_DEST },
+
+  // self hosted materialize icons
+  { src: 'material-design-icons/iconfont/MaterialIcons-Regular.woff2', inject: true, dest: LIB_DEST },
+  { src: 'material-design-icons/iconfont/MaterialIcons-Regular.woff', inject: true, dest: LIB_DEST },
+  { src: 'material-design-icons/iconfont/MaterialIcons-Regular.ttf', inject: true, dest: LIB_DEST },
+  { src: 'material-design-icons/iconfont/MaterialIcons-Regular.eot', inject: true, dest: LIB_DEST }
+
 ];
 
 // Declare local files that needs to be injected

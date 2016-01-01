@@ -1,8 +1,21 @@
 <section class="sample-app-content">
   <nav>
-    <a [routerLink]="['/Home']">Home</a>
-    <a [routerLink]="['/About']">About</a>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">datarator.io</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a [routerLink]="['/Home']">Home</a></li>
+        <li><a [routerLink]="['/Home_Mock']">Home mock</a></li>
+        <li><a [routerLink]="['/About']">About</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a [routerLink]="['/Home']">Home</a></li>
+        <li><a [routerLink]="['/Home_Mock']">Home mock</a></li>
+        <li><a [routerLink]="['/About']">About</a></li>
+      </ul>
+    </div>
   </nav>
+
 
   <router-outlet></router-outlet>
 </section>
